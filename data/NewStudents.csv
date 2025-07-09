@@ -1,0 +1,5 @@
+Name,Math,Science,English,Total,Result
+Alice,78.0,83.0,89.0,250.0,Pass
+Charlie,90.0,50.0,88.0,228.0,Pass
+Bob,50.0,72.0,70.0,192.0,Pass
+Diana,55.0,60.0,50.0,165.0,Fail
