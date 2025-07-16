@@ -41,4 +41,3 @@ Use these links to refer to the official documentation and tutorials when learni
 
 ---
 
-Let me know if you'd like these merged into your main README file or saved as a separate file like `REFERENCES.md`.
