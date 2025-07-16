@@ -10,7 +10,7 @@ This is where we revise and update Python concepts taught in class – neatly, w
 
 This repo is made for beginners — imagine you're 5 years old and just learning Python!  
 We are helping each other revise by adding weekly learnings.  
-Each person contributes on their own **branch**, and the owner (Aditya) will review and merge it into the main code.
+Each person contributes on their own **branch**, and (Aditya) and others who are better at github will review and merge it into the main code.
 
 ---
 
@@ -19,10 +19,12 @@ Each person contributes on their own **branch**, and the owner (Aditya) will rev
 Before you can join the fun, install the following:
 
 ### ✅ 1. Python (latest version)
+- Youtube Video Guide - https://youtu.be/ddGTXBhaGWA?si=x6yRWYCMlShqizG4
 - Download from: https://www.python.org/downloads/
 - Install it globally (check "Add to PATH" during installation)
 
 ### ✅ 2. Git
+- Youtube Video guide - https://youtu.be/3Tsaxxv9sls?si=VK1deFJjjdAYmsSa
 - Download from: https://git-scm.com/downloads
 - Git helps in version control (tracking file changes)
 - After installing, open your terminal and type:
@@ -34,14 +36,18 @@ Before you can join the fun, install the following:
 - Make one here: https://github.com
 
 ### ✅ 4. VS Code (Code Editor)
+
+- Youtube video guide - https://youtu.be/cu_ykIfBprI?si=5IPfPIJ5uOzTVFG8
 - Download from: https://code.visualstudio.com/
 
 ### ✅ 5. VS Code Extensions
 Install these in VS Code:
+- Youtube Video Guide - https://youtu.be/xS5ZXOC4e6A?si=DFi7VVec19Q2zv7N
 - **Python Extension** (by Microsoft)
 - **Jupyter Extension** (for running `.ipynb` notebooks)
 
 ### ✅ 6. Python Libraries – Install these once
+-Youtube video guide - https://youtu.be/ThU13tikHQw?si=x_VSy_8cXQc6DDpt
 Open your terminal and run:
 ```bash
 pip install numpy pandas matplotlib seaborn
