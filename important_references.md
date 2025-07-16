@@ -2,6 +2,8 @@
 ### 📚 Official & Helpful Documentation Links
 
 Use these links to refer to the official documentation and tutorials when learning or revising. These are great for beginners as well as deeper understanding later.
+### Python Interview Questions: 
+[Click Here for pdf ](https://media.licdn.com/dms/document/media/v2/D4D1FAQEfNSntS9yLCQ/feedshare-document-pdf-analyzed/B4DZf30ZNuHkAY-/0/1752209408143?e=1753315200&v=beta&t=jg887Jq0Fe88mE9GtRLqX_2wLPAtGhfbFdVbYv-Ro_8)
 
 #### 🔢 NumPy – Numerical Python
 
