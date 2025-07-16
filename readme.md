@@ -10,7 +10,7 @@ This is where we revise and update Python concepts taught in class – neatly, w
 
 This repo is made for beginners — imagine you're 5 years old and just learning Python!  
 We are helping each other revise by adding weekly learnings.  
-Each person contributes on their own **branch**, and the owner (Aditya) will review and merge it into the main code.
+Each person contributes on their own **branch**, and (Aditya) and others who are better at github will review and merge it into the main code.
 
 ---
 
