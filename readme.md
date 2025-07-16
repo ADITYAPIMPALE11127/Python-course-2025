@@ -138,14 +138,9 @@ Resolve conflicts if any (ask for help if confused!).
 ```
 /Python-course-2025
 │
-├── Week1/
-│   ├── functions.py
-│   └── week1_notes.ipynb
-│
-├── Week2/
-│   ├── loops.py
-│   └── week2_notes.ipynb
-│
+├── Strings/
+│   ├── existing.ipynb
+│   └── new_strings.ipynb
 └── README.md
 ```
 
