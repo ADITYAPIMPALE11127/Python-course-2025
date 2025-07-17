@@ -5,8 +5,8 @@ Welcome to the **Python Course 2025** repo! 👋
 This is where we revise and update Python concepts taught in class – neatly, weekly, and with everyone's help!
 
 ---
-## For Important References for study refer below: 
-📚 [Click here for Important Library References](important_references.md)
+# For Important References for study refer below: (Libraries, Interview Questions)
+📚 [Click here for Important References](important_references.md)
 
 ## 👶 Who is this for?
 
