@@ -1,0 +1,30 @@
+Python is a general purpose, interpreted, high level programming language with easy syntax.
+
+Program :  it is a set of instructions
+
+Assembly: Assembly language
+
+compiler: Once at a time
+
+Interpreter: Line by Line
+
+High level programming language: human understanding language this needs NLP
+
+Guido Van Russom is the creator of python in 1989 and released in 1991.
+
+IDE - integrated development & environment - where we execute, debug, update, write, read, terminal
+the code easily.
+
+
+inside "" the data is a valid chaaracter : -
+string value gets converted to ascii value into binary
+
+
+sep
+  string inserted between values, default a space.
+end
+  string appended after the last value, default a newline.
+file
+  a file-like object (stream); defaults to the current sys.stdout.
+flush
+  whether to forcibly flush the stream.
