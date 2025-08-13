@@ -44,7 +44,7 @@ Array properties:
 e.g. assume you are an data ware house manager, 
      there is lots of data of company products which you have to keep track of:
      1. product name
-     2. Quantiy of a product
+     2. Quantity of a product
      3. Price of the product
 You must know product name, quantity i.e. shape() of the product, type of data of product 
      
@@ -56,6 +56,64 @@ size method:  returns total numbers of elements in array
   e.g.  to know what is the size of a dataset 
 
 
+MCQ:
+Q1. NumPy arrays are faster than lists mainly because:
+a) They store data in different types
+b) They are written in C and store data in contiguous memory
+c) They use loops internally
+d) They can store any Python object
 
+ans: b
 
+MCQ:
+Q2. What will be the output of:
+
+import numpy as np
+arr = np.arange(2, 10, 3)
+print(arr)
+
+a) [2 5 8]
+b) [2 5 8 11]
+c) [2 5 7]
+d) [2 4 6]
+
+ans: a
+
+2️⃣ Creating NumPy Arrays (Deep Dive)
+Theory:
+Creating arrays is the first step in almost any numerical task. Arrays store data in a fast, compact way, and NumPy gives many shortcuts (zeros, ones, full, arange, linspace) to set up datasets without typing everything.
+
+Where it’s used in AI/ML & DS:
+
+Zeros & Ones: Initializing weights or bias arrays in ML models before training.
+
+Full(): Setting all sensor readings to a default value before actual readings come in.
+
+arange(): Generating index values for time series like stock prices or sensor data.
+
+linspace(): Creating smooth points for plotting curves (e.g., sigmoid function).
+
+Lists → Arrays: Converting raw dataset from CSV into NumPy arrays for faster math operations.
+
+Example:
+
+import numpy as np
+
+# Image preprocessing: create a black image (all zeros)
+black_img = np.zeros((100, 100, 3), dtype=np.uint8)
+
+# Simulation: array of timestamps
+timestamps = np.arange(0, 10, 0.5)
+
+# ML weight initialization: all small values
+weights = np.full((3, 3), 0.01)
+
+MCQ:
+Q2. np.linspace(0, 1, 5) generates:
+a) [0, 1, 2, 3, 4]
+b) [0. , 0.25, 0.5 , 0.75, 1.]
+c) [0. , 0.2, 0.4, 0.6, 0.8]
+d) Error
+
+ans: b
 
