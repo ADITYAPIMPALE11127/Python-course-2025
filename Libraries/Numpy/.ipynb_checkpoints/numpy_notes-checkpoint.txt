@@ -1,0 +1,61 @@
+Numpy is a python library
+
+Numpy stands for numerical python.
+
+Travis Oliphant developed numpy library in the year 2005.
+
+Problem faced by poeple when they only used python for data analysis
+
+   1. It was very slow when working on large datasets like weather, stock market data
+   2. People had to use loops to work on this datasets which was time consuming 
+   3. They used lists but the lists are not memory efficient, not suitable for large data
+
+Numpy was built to:
+                  1. To handle large amount of numbers in little to no time (like millions of rows of data).
+                  2. To overcome the slowness of lists and loops, and invented special arrays
+
+Special arrays where super fast and memory efficient.They are advanced lists
+
+Benefits of Numpy: 
+1. Speed is 50 - 100x more than lists
+2. Uses less memory
+3. Easy math operations
+4. Used in AI, DS and ML, stock market & finance, medical research, and image processing.
+
+full method: parameters to know:
+ 
+   np.full(shape, fill_value, dtype=None, order='C', *, like=None)
+Parameter	           Description
+shape	               Tuple indicating the shape of the array (e.g. (3, 3, 2))
+(3, 3, 2)
+ ↑  ↑  ↑
+ |  |  └── 2 columns in each row
+ |  └───── 3 rows in each block
+ └──────── 3 blocks (or 3 matrices)
+fill_value	           The value to fill the array with (e.g. 25)
+dtype	                (Optional) Data type of the output array (e.g. int, float)
+order	               (Optional) Row-major ('C') or column-major ('F') memory layout
+like	               (Optional) Reference object to define the result's type and behavior
+
+Array properties:
+
+1. Numpy array carries shape, size and type of data, which we must know before performing any operations on it.
+
+e.g. assume you are an data ware house manager, 
+     there is lots of data of company products which you have to keep track of:
+     1. product name
+     2. Quantiy of a product
+     3. Price of the product
+You must know product name, quantity i.e. shape() of the product, type of data of product 
+     
+
+shape method:  can be used to know the size of the array 
+e.g. assume we have an excel table, shape tells us the dimensions of it
+
+size method:  returns total numbers of elements in array
+  e.g.  to know what is the size of a dataset 
+
+
+
+
+

@@ -1,0 +1,67 @@
+Data Structures is a 1. collection of data values 
+                     2. Relationships among them. 
+                     3. Functions or operations that can be applied on them.
+
+Why do you need to learn data structures to ace coding interviews ?
+Pattern of questions: -
+
+   I/P is given that is the data ----------->>>> we are told to apply an algorithm to get --------->>>> O/P (data)
+
+Same question can be solved in multiiple ways, so we can solve the question using any alogrithm but,
+
+Some Data structures are more efficient than the others to do some tasks ---->>>> so this takes less 1. Time and 2. Space
+
+Solution for the above pattern is: -->>> Hands on practice with common Data structures alonmg with their positives and negatives 
+
+-------x-------------------x-------------------x----------------------x------------------------x------------------x------------x------
+
+Complexity Analysis, Big O:
+
+The Need for complexity Analysis: - 
+question 1: i/p = N
+                      assume, N = 5 AND problem is (n-1) + (n - 2)+ .... + 1
+Sol 1: ((N-1) x N ) / 2                                |  Sol 2: iterate from N - 1  to 1 and keep adding 
+        this has to do only 3 operations               | this takes n - 1 + n - 2 that is 2n - 3 operations, this is done here using        this takes 3 ops every time irresp of N               |  iterations so it will slow down when N is a greater num.  
+Which approach is better?
+Ans ->>> solution depends upon the approach, approach must be efficient in the below terms:
+
+         faster - time complexity  takes less memory - space complexity
+
+
+Why care about identifying which is better?
+-->>>  huge amount of data where there can be significant performance differences between solutions
+
+What does better mean?
+--->>>  1. Solutions that are 1. Faster 2. Take less memory
+
+
+Time Complexity: -
+We count the number of simple operations the computer has to do and not the time taken by the PC to give the output.
+
+As input grows ->>>>> in what proportion does no of operations grow, if 2 approaches then in which approach operations grow less is considered faster i.e. most efficient one.
+
+Time complexity is nothing but how the runtime grows as the input size grows.
+
+To find by what no is the operations growing is known as Asymptotic Analysis
+
+Asymptotic analysis is expressed by Big O Notation.
+
+Complexity Analysis, Big O 
+
+Asypmtotic Analysis: -
+
+for 1/p size N the algorithm makes the computer do F(N) no of operations, to get
+
+     --->>>> Trend that is, is the no of operations growing or not growing as input grows 
+
+example: --->>> f(N) = N + 3, where N is large as a million then we say that time complexity of the function is,
+
+->>>> O(N) i.e. Big O notation -->>>>> this implies as i/p size increases, time taken increases linearly
+
+O(N) means operations are bounded by a multiple of N 
+
+In O(n) we always talk about the upper bound / worst case
+
+Big O Notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.
+
+
